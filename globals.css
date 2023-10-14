@@ -1,0 +1,46 @@
+*{
+
+}
+
+body{
+ 
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(https://i.pinimg.com/originals/61/b3/39/61b3395f4b9f4562fd93b41ce79403a1.gif);
+  background-repeat: no-repeat;
+
+  background-size: cover;
+ 
+
+  -webkit-animation: AnimateBG 20s ease infinite;
+          animation: AnimateBG 20s ease infinite;
+}
+
+h1{
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  font-size: 80px;
+}
+
+p{
+  font-style: italic;
+  font-size: 50px;
+}
+
+button{
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+button:hover{
+  background-color: #0056b3;
+}
